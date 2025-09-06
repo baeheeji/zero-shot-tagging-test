@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# 이미지 데이터 (원본 전체는 외부 보관)
+data/raw/
+data/private/
+*.jpg
+*.png
+
+# 모델 체크포인트 / 임베딩
+*.pt
+*.pth
+*.npy
+*.npz
+*.safetensors
+
+# 출력물
+outputs/
